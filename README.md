@@ -2,11 +2,9 @@
 ### Setup
 ```
 pkg install -y wget
-wget https://raw.githubusercontent.com/eda-abec/OneShot_Termux_installer/master/installer.sh
+wget https://raw.githubusercontent.com/FluffyFox337/oneshot_installer-termux/refs/heads/master/installer.sh
 bash installer.sh
 ```
-### QR code for above URL
-![QR](https://raw.githubusercontent.com/eda-abec/OneShot_Termux_installer/master/qr.gif)
 ### Run
 Disable Wi-Fi in the system settings and run:
 ```
