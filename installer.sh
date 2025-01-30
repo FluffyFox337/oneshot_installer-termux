@@ -9,12 +9,12 @@ pkg install -y root-repo
 pkg install -y wget tsu python wpa-supplicant iw
 
 # keep upstream
-wget https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/binaries/$architecture/pixiewps -O $PREFIX/bin/pixiewps
+wget https://github.com/FluffyFox337/oneshot_installer-termux/raw/refs/heads/master/binaries/$architecture/pixiewps -O $PREFIX/bin/pixiewps
 chmod +x $PREFIX/bin/pixiewps
 
-wget https://raw.githubusercontent.com/eda-abec/OneShot-Termux/termux/oneshot.py
+wget https://raw.githubusercontent.com/FluffyFox337/oneshot/refs/heads/master/oneshot.py
 # keep upstream
-wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
+wget https://raw.githubusercontent.com/FluffyFox337/oneshot/refs/heads/master/vulnwsc.txt
 
 chmod +x ./oneshot.py
 
